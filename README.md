@@ -9,7 +9,7 @@ These files have been tested and used to generate a live ELK deployment on Azure
   https://github.com/SCBreems/Scripts/blob/f1bc3cb4c9db58268f5a8af850f3151298a1ab80/Ansible/filebeat-playbookyml.txt
 
 This document contains the following details:
-- Description of the Topologu
+- Description of the Topology
 - Access Policies
 - ELK Configuration
   - Beats in Use
@@ -71,9 +71,9 @@ Ansible was used to automate configuration of the ELK machine. No configuration 
 Ansible improves efficiency, management, and scalability by allowing you to manage all of your servers at once instead of managing each server one by one.
 
 The playbook implements the following tasks:
-- First you want to configure the Elk VM with Docker.
-- Secondly you want to install docker.io & python3-pip.
-- Third you want to install th docker module.
+- First, you want to configure the Elk VM with Docker.
+- Secondly, you want to install docker.io & python3-pip.
+- Third, you want to install the docker module.
 - Lastly, you want to download the sebp/elk:761 image.
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
@@ -106,7 +106,7 @@ SSH into the control node and follow the steps below:
 
 `ssh scbredteam@20.213.110.118`
 
-2. Start and then attach to your Ansible container.
+2. Start and then attach to your ansible container.
 
 `sudo docker container list -a`  
 `sudo docker container start elated_chebyshev`  
